@@ -9,9 +9,9 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 
-//en el APP_SHELL pongo todo lo que va en el static cache 
-//todo lo que necesita mi app para funcionar y que lo actualizo y modifico yo, 
-//todos los file, img, y mas
+// en el APP_SHELL pongo todo lo que va en el static cache 
+// todo lo que necesita mi app para funcionar y que lo actualizo y modifico yo, 
+// todos los file, img, y mas
 
 const APP_SHELL = [
     // '/',
@@ -39,7 +39,7 @@ const APP_SHELL_INMUTABLE = [
     'js/libs/jquery.js'
 ];
 
-//Instalacion del SW
+// Instalacion del SW
 
 
 self.addEventListener('install', e => {
