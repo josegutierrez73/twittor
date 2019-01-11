@@ -13,7 +13,7 @@ if ( navigator.serviceWorker ) {
         }
 
 
-    navigator.serviceWorker.register('/sw.js');
+    navigator.serviceWorker.register( swLocation );
 }
 
 // Referencias de jQuery
