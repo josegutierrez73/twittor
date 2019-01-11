@@ -1,6 +1,18 @@
+// validación para poder usar github y que reconosca mi SW
+var url = window.location.href;
+var swLocation = '/twittor/sw.js';
+ 
 
+ 
  // registro el SW
 if ( navigator.serviceWorker ) {
+
+
+        if ( url.includes('localhost') ) {
+            swLocation = 'swLocation';
+        }
+
+
     navigator.serviceWorker.register('/sw.js');
 }
 
