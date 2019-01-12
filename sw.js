@@ -52,7 +52,7 @@ self.addEventListener('install', e => {
     //     cache.addAll( APP_SHELL_INMUTABLE ));
 
 
-    e.waitUntil( Promise.all([ cacheStatic ]) );
+    e.waitUntil( cacheStatic );
     
 });
 
